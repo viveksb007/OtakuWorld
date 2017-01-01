@@ -2,6 +2,8 @@ package com.viveksb007.otakuworld;
 
 import android.net.Uri;
 
+import java.io.Serializable;
+
 /**
  * Created by viveksb007 on 13/12/16.
  */

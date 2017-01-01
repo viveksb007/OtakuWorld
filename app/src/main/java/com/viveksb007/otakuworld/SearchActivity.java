@@ -73,7 +73,7 @@ public class SearchActivity extends Activity {
                         responseObject.setTitle(object.getString("title_english"));
                         responseObject.setYoutube_id(object.getString("youtube_id"));
                         responseObject.setSysnopsis(object.getString("description"));
-                      //  responseObject.setGenre((String[]) object.get("genres"));
+                        //  responseObject.setGenre((String[]) object.get("genres"));
 
                         responseObjects[i] = responseObject;
 
@@ -99,7 +99,6 @@ public class SearchActivity extends Activity {
 
         mAdapter = new AnimeAdapter(mContext, responseObjects);
         mRecyclerView.setAdapter(mAdapter);
-
     }
 
 }
